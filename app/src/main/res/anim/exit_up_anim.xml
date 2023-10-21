@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shake for first 3 seconds-->
+    <translate android:toXDelta="1%"
+        android:fromXDelta="-1%"
+        android:repeatCount="25"
+        android:duration="100"
+        />
+
+    <!-- Launch in Sky on Shake ends(After 3 seconds) -->
+    <translate android:fromXDelta="0%"
+        android:fromYDelta="0%"
+        android:toYDelta="-400%"
+        android:toXDelta="0%"
+        android:duration="1000"
+        android:startOffset="3000"
+        />
+
+</set>
+

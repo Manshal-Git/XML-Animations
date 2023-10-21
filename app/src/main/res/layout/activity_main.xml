@@ -8,33 +8,11 @@
     tools:context=".MainActivity">
 
 
-    <!-- Stars Rating -->
-    <LinearLayout
-        android:id="@+id/starRating"
-        android:layout_width="match_parent"
-        android:layout_height="128dp"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:layout_gravity="center">
-
-        <ImageView
-            android:id="@+id/star1"
-            android:layout_width="@dimen/star_size"
-            android:layout_height="@dimen/star_size"
-            android:background="@drawable/empty_star" />
-
-        <ImageView
-            android:id="@+id/star2"
-            android:layout_width="@dimen/star_size"
-            android:layout_height="@dimen/star_size"
-            android:background="@drawable/empty_star" />
-
-        <ImageView
-            android:id="@+id/star3"
-            android:layout_width="@dimen/star_size"
-            android:layout_height="@dimen/star_size"
-            android:background="@drawable/empty_star" />
-
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/ivRocket"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:src="@drawable/rocket"
+        android:layout_gravity="bottom|center_horizontal"/>
 
 </FrameLayout>
